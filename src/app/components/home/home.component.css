@@ -1,0 +1,46 @@
+.header{
+  height: 100vh;
+  background-color: #1ABC9C !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headerheading{
+  font-size: 6rem;
+  line-height: 3.5rem;
+}
+.title{
+  font-size: 1.5rem;
+}
+.headerImage{
+  width: 15rem;
+}
+
+
+.content{
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+}
+.line:first-child {
+  margin-right: 1rem;
+}
+.line:last-child {
+  margin-left: 1rem;
+}
+.icon {
+  color: #fff !important;
+  font-size: 3rem;
+}
+.line {
+  background-color: #fff;
+}
+

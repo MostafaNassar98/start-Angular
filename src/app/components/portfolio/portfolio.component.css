@@ -1,0 +1,72 @@
+.portfolioHeading{
+  font-size: 90px;
+  color: #2C3E50 !important;
+}
+.portfolio-item{
+  width: 400px;
+  position: relative;
+  display: block;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolio-item-caption{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(8, 167, 135, 0.9);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.portfolio-item-caption:hover{
+  opacity: 1;
+}
+
+.portfolio-modal-title{
+  font-size: 30px;
+}
+
+.portfolio-modal .close{
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #1abc9c;
+  opacity: 1;
+}
+
+.content{
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+}
+
+.line:first-child {
+  margin-right: 1rem;
+}
+
+.line:last-child {
+  margin-left: 1rem;
+}
+
+.icon {
+  color: #2C3E50 !important;
+  font-size: 3rem;
+}
+
+.line {
+  background-color: #2C3E50;
+}

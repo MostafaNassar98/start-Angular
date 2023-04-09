@@ -1,0 +1,19 @@
+.footer{
+  background-color: #2C3E50;
+  padding-top: 50px;
+}
+.row{
+  padding: 50px 0px;
+}
+i{
+  font-size: 55px;
+  padding-left: 30px;
+  background-color: #2C3E50;
+  color: white;
+}
+i:hover{
+  color: black;
+}
+.copywrite{
+  background-color: #1A252F;
+}

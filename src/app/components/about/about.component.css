@@ -1,0 +1,43 @@
+.about{
+  background-color: #1ABC9C !important;
+
+}
+.aboutHeading{
+  font-size: 90px;
+}
+.row{
+  font-size: 25px;
+  font-weight: 600;
+}
+.content{
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+}
+
+.line:first-child {
+  margin-right: 1rem;
+}
+
+.line:last-child {
+  margin-left: 1rem;
+}
+
+.icon {
+  color: white !important;
+  font-size: 3rem;
+}
+
+.line {
+  background-color: white;
+}
+
